@@ -4,7 +4,7 @@ import okhttp3.Interceptor
 import okhttp3.Request
 import okhttp3.Response
 
-private const val API_KEY = "KSWmSe5NNGbNdeuZtSzBnIX9HTHotIXsDiZllDHd"
+private const val API_KEY = ""
 
 class AuthorizationInterceptor() : Interceptor {
     override fun intercept(chain: Interceptor.Chain): Response {
